@@ -1,0 +1,147 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+}
+.next-btn{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(-50% ,-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #212EA0;
+}
+
+.back-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50% ,-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #212EA0;
+}
+
+.back-btn{
+    right: auto;
+    left: 50px  ;
+}
+
+.slider {
+     overflow: hidden; 
+}
+
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden; 
+    transition: 0.5s;   
+}
+
+.slider ul li{
+    list-style: none;
+    width: 50%;  
+    padding:20px;
+} 
+
+.slide {
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 40px;      
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
+    background: black;
+}
+
+.slide img{
+    width:65px;
+    border-radius:50%;
+    margin-right:10px;
+    border: 4px solid #212EA0;
+} 
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size:15px;
+} 
+
+@media screen and (max-width:768px){
+    .testimonials{
+        margin: 80px auto;
+        padding: 0 60px;
+        position: relative;
+    }
+    .slider ul{
+        display: flex;
+        width: 410%;
+        overflow-x: hidden; 
+        transition: 0.5s;
+        
+    }
+    .back-btn{
+    left: 40px;
+    }   
+    .next-btn{
+     right: -20px;
+    }
+        
+}
+
+@media screen and (max-width:360px){
+    .slider {
+        overflow: hidden; 
+   }
+   
+   .slider ul{
+       display: flex;
+       width: 500vw;
+       overflow-x: hidden; 
+       transition: 0.5s;   
+   }
+   
+   .slider ul li{
+       list-style: none;
+        width: 40%;   
+        padding:-10px;
+   } 
+
+   .slide {
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 10px;      
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
+    background: black;
+    height: 250px;
+}
+
+.slide img{
+    width:65px; 
+    border-radius:50%;
+    margin-right:10px;
+    border: 4px solid #212EA0;
+} 
+
+.user-info {
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 20px;
+    font-size:15px;
+} 
+
+   
+}
+@media screen and (max-width:400px){
+    .slider {
+    max-width: 100%;
+    height: 100vh;   
+    }
+
+}

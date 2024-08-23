@@ -1,0 +1,33 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:250px){
+    .gallery{
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .gallery img{
+        width: 100%;
+        padding-left: 5px;
+
+    }
+
+   
+}
