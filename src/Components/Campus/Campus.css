@@ -31,3 +31,16 @@
 
    
 }
+
+@media screen and (max-width:480px){
+    .gallery{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .gallery img{
+        width: 100%;
+    }
+
+}

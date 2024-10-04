@@ -46,11 +46,11 @@
         font-size: 20px;
         line-height: 25px;
         text-align: center;
-        margin-left: 18%;
+        /* margin-left: 18%; */
     }
     .about-right p{
         
-        text-align: center;
+        text-align: justify;
 
     }
     .about{

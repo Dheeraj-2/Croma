@@ -4,6 +4,7 @@
     justify-content: center;
     margin: 80px auto;
     width: 90%;
+    /* background-color: red; */
 }
 .program img{
     width: 100%;
@@ -45,15 +46,18 @@
 
 
 @media screen and (max-width:250px){
-    .programs{
-        flex-direction: column;
-        
-    }
     .programs p{
         font-size: 12px;
         
     }
     .program{
         width: 100%;
+    }
+}
+@media screen and (max-width:430px){
+    .programs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
